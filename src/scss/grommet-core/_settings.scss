@@ -1,14 +1,14 @@
 // Settings
-@import "inuit-defaults/settings.defaults";
+@import "{}/node_modules/inuit-defaults/settings.defaults";
 @import "settings.defaults";
 @import "settings.color";
 @import "settings.font";
-@import "inuit-responsive-settings/settings.responsive";
+@import "{}/node_modules/inuit-responsive-settings/settings.responsive";
 
 // Tools
-@import "inuit-functions/tools.functions";
-@import "inuit-mixins/tools.mixins";
-@import "inuit-responsive-tools/tools.responsive";
+@import "{}/node_modules/inuit-functions/tools.functions";
+@import "{}/node_modules/inuit-mixins/tools.mixins";
+@import "{}/node_modules/inuit-responsive-tools/tools.responsive";
 @import "tools.color-index";
 @import "tools.icon";
 @import "tools.input";

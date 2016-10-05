@@ -3,9 +3,9 @@
 @import "settings";
 
 // Generic
-@import "inuit-normalize/generic.normalize";
-@import "inuit-reset/generic.reset";
-@import "inuit-shared/generic.shared";
+@import "{}/node_modules/inuit-normalize/generic.normalize";
+@import "{}/node_modules/inuit-reset/generic.reset";
+@import "{}/node_modules/inuit-shared/generic.shared";
 
 // Base
 @import "base";
@@ -14,4 +14,4 @@
 @import "objects";
 
 // Trumps
-@import "inuit-clearfix/trumps.clearfix";
+@import "{}/node_modules/inuit-clearfix/trumps.clearfix";
